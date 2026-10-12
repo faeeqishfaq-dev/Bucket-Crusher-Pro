@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1402725012, guid: 6b903be9b5e5c98ae6785889cb526a1f, type: 3}
+  m_Name: VoodooSettings
+  m_EditorClassIdentifier:
+  Store: worldwide
+  AccessTokenID:
+  LastUpdateDate: 05/05/2026 12:21:57
+  AndroidBuildTargetEnum: 0
+  UseLegacyManifestMergeTools: 0
+  UseAttributesMerging: 0
+  NewManifestMergeDebug: 0
+  AndroidTemplateJsonCustomPath:
+  JvmHeapSize: 0
+  RunXcode16BitcodeRemoval: 1
+  IosCustomFrameworksListPath:
+  EnableInEditorUnityAds: 1
+  EnableInEditorRVAds: 1
+  EnableInEditorFSAds: 1
+  EnableInEditorAOAds: 1
+  EnableSuperPremiumMode: 0
+  VoodooFunnels:
+    funnels: []
+  AndroidIAPEnabled: 1
+  iOSIAPEnabled: 1
+  AndroidNoAdsProductId: io.voodoo.bucketcrusher.noads
+  iOSNoAdsProductId: io.voodoo.bucketcrusher.noads
+  SubscriptionGroups:
+  - None
+  - SubGroup 1
+  ProductsFamily:
+  - None
+  - Coins
+  - Skipets
+  - EndlessOffer
+  - Card pack
+  Products:
+  - _productId: io.voodoo.bucketcrusher.gems50
+    _type: 0
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  - _productId: io.voodoo.bucketcrusher.gems250
+    _type: 0
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  - _productId: io.voodoo.bucketcrusher.gems750
+    _type: 0
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  - _productId: io.voodoo.bucketcrusher.noads.better
+    _type: 1
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  - _productId: io.voodoo.bucketcrusher.gemsnoads
+    _type: 0
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  SubscriptionSharedKey:
+  StudioLogoForSplashScreen: {fileID: 0}
+  DisableVSManagedSplashScreen: 0
+  AppleStoreId: 1619979233
+  iOSAppRaterEnabled: 1
+  AndroidAppRaterEnabled: 1
+  AppRaterDelayAfterLaunchInSeconds: 60
+  AppRaterPostponeCooldownInSeconds: 86400
+  AppRaterMinimumNumberOfGamesPlayed: 5
+  GdprPrimaryColor: {r: 0.254, g: 0.509, b: 0.894, a: 1}
+  iOSBannerCloseButtonEnabled: 0
+  AndroidBannerCloseButtonEnabled: 0
+  BannerBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  BannerCloseButtonSprite: {fileID: 0}
+  BannerCloseButtonPosition: 0
+  EnableAutomaticBannerHeightAdjustment: 1
+  cumulativeDelayInSecondsBeforeFirstInterstitialAd: -1
+  delayInSecondsBeforeFirstInterstitialAd: 30
+  delayInSecondsBeforeSessionFirstInterstitialAd: -1
+  delayInSecondsBetweenInterstitialAds: 30
+  maxGamesBetweenInterstitialAds: 3
+  delayInSecondsBetweenRewardedVideoAndInterstitial: 5
+  enableReplaceRewardedIfInterstitialCpmHigher: 0
+  enableReplaceRewardedIfNotLoaded: 0
+  RefreshKitchenSettingsBeforeBuildInBatchMode: 1
+  voodooLogAddTimestamp: 0
+  captureUnityLogs: 0
+  compileOutLogsAtBuildTime: 0
+  logFilteringSettings:
+    filterUnityLogsWithVerbosity: 0
+    enable3rdPartyLogsFiltering: 0
+    enablePrefixLogFiltering: 0
+    logFilteringPrefixes:
+    - '[LevelPlay]'
+    - '[Adjust]'
+    - '[Audiomob]'
+    - '<b>[Audiomob]</b>'
+    - '[AdnSdk]'
+    - ADN Update
+    - 'GameAnalytics: '
+    - '[AppHarbr]'
+    - '[AFPSCounter]'
+    - '<b>[AFPSCounter]:</b>'
+    - VoodooSauce/IAP/
+    - Blackboard/
+    - '[VoodooTune'
+  logVerbosityPlayInEditor: 1
+  logVerbosityDebug: 0
+  logVerbosityDevelopment: 1
+  logVerbosityRelease: 3
+  EnableVoodooAnalyticsLocalTimestamp: 1
+  SendFirebaseInstallEvent: 1
+  UsercentricsSettingsId:
+  UsercentricsRulesetId: iVwE_MRxOGzWBf
+  FirstLayerLogo: {fileID: 0}
+  SecondLayerLogoUrl:
+  MultipleCmpTestsEnabled: 0
+  UsercentricsCmpEnabled: 0
+  UsercentricsABAssignment: 0.5
+  GoogleCmpEnabled: 0
+  GoogleABAssignment: 0.5
+  IgnoreTheGoogleKeyError: 0
+  IOSBundleID: com.AndreyGushchin.BucketCrusher2
+  AndroidBundleID: com.AndreyGushchin.BucketCrusher
+  UseAndroidRemoteConfig: 1
+  UseIosRemoteConfig: 1
+  EnableIosReplaceRewardedOnCpm: 0
+  EnableAndroidReplaceRewardedOnCpm: 0
+  EnableIosReplaceRewardedIfNotLoaded: 0
+  EnableAndroidReplaceRewardedIfNotLoaded: 0
+  UseIosVoodooAnalytics: 1
+  UseAndroidVoodooAnalytics: 1
+  UseIosFirebaseAnalytics: 1
+  UseAndroidFirebaseAnalytics: 1
+  GameAnalyticsIosGameKey: 358058f53972f88d3924dbbbb36c6cd9
+  GameAnalyticsIosSecretKey: 4bc9043c1786b3b3be388d3f7122b3b673a99843
+  ExcludeGameAnalyticsIosSDK: 0
+  GameAnalyticsAndroidGameKey: f04c163002481859d3b0ba29f747957d
+  GameAnalyticsAndroidSecretKey: 10dcbf1e22a53049d7d46194e0d96296b1deaff5
+  ExcludeGameAnalyticsAndroidSDK: 0
+  MaxAdsIosAdsKeys:
+    maxAdsAdUnits:
+      bannerAdUnit: 716f7335ef8cfa35
+      interstitialAdUnit: c26ed80cddd49396
+      rewardedVideoAdUnit: e12bb9e596e2edd1
+      mrecAdUnit: c797b0d4426da84e
+      nativeAdsAdUnit:
+      secondInterstitialAdUnit:
+      secondRewardedVideoAdUnit:
+    maxAdsSecondaryAdUnits:
+      bannerAdUnit:
+      interstitialAdUnit:
+      rewardedVideoAdUnit:
+      mrecAdUnit:
+      nativeAdsAdUnit:
+      secondInterstitialAdUnit:
+      secondRewardedVideoAdUnit:
+    sessionCountThreshold: 0
+    maxSdkKey:
+    enableFakeAds: 0
+    enableFakeInterstitialAds: 0
+    enableFakeRewardedVideoAds: 0
+  MaxAdsAndroidAdsKeys:
+    maxAdsAdUnits:
+      bannerAdUnit: 9b4debac0cbb7fee
+      interstitialAdUnit: df5d806fceac7ae8
+      rewardedVideoAdUnit: 309eefb188de1e7d
+      mrecAdUnit: e0bdee13d6795770
+      nativeAdsAdUnit:
+      secondInterstitialAdUnit:
+      secondRewardedVideoAdUnit:
+    maxAdsSecondaryAdUnits:
+      bannerAdUnit:
+      interstitialAdUnit:
+      rewardedVideoAdUnit:
+      mrecAdUnit:
+      nativeAdsAdUnit:
+      secondInterstitialAdUnit:
+      secondRewardedVideoAdUnit:
+    sessionCountThreshold: 0
+    maxSdkKey:
+    enableFakeAds: 0
+    enableFakeInterstitialAds: 0
+    enableFakeRewardedVideoAds: 0
+  MaxIosSdkKey: E1M7r57HoT7PoxvgxbXnJLA55TKI1GOGHmO6rVNdzV1mQwQMWz7rJIxOrGgtW48prWwf1II-oKkDF9Zn7gbQzX
+  MaxAndroidSdkKey: E1M7r57HoT7PoxvgxbXnJLA55TKI1GOGHmO6rVNdzV1mQwQMWz7rJIxOrGgtW48prWwf1II-oKkDF9Zn7gbQzX
+  DisableMaxAdsQualityServiceSDK: 0
+  IronSourceIosKeys:
+    appKey:
+    bannerAdUnit:
+    interstitialAdUnit:
+    rewardedVideoAdUnit:
+  IronSourceAndroidKeys:
+    appKey:
+    bannerAdUnit:
+    interstitialAdUnit:
+    rewardedVideoAdUnit:
+  AdMobAndroidAppId: ca-app-pub-6354112556091525~9044316548
+  AdMobIosAppId: ca-app-pub-6354112556091525~4778850042
+  AdjustIosAppToken: sh51oeqo92ps
+  AdjustAndroidAppToken: qb32zukuybcw
+  ConversionIosEvents:
+    UseConversionEvents: 1
+    DaysUntilExpiration: 1
+    AdEvents: []
+    UnknownEvents: []
+  ConversionAndroidEvents:
+    UseConversionEvents: 1
+    DaysUntilExpiration: 1
+    AdEvents: []
+    UnknownEvents: []
+  iOSAudioAdConfig:
+    adNetwork:
+    gameStartTriggerFrequency: 0
+    coolDownBetweenAudioAds: 0
+    killWhenFsOrRvStarts: 0
+    killWhenGameFinishes: 0
+    closePopupCappingPerSession: 0
+    closePopupFrequencyPerImpression: 0
+    firstAudioAdGracePeriod: 0
+    nextAudioAdGracePeriod: 0
+  AndroidAudioAdConfig:
+    adNetwork:
+    gameStartTriggerFrequency: 0
+    coolDownBetweenAudioAds: 0
+    killWhenFsOrRvStarts: 0
+    killWhenGameFinishes: 0
+    closePopupCappingPerSession: 0
+    closePopupFrequencyPerImpression: 0
+    firstAudioAdGracePeriod: 0
+    nextAudioAdGracePeriod: 0
+  iOSAudioMobConfig:
+    apiKey: 2M4nqcOGZwX6UQkqxWJs
+    adUnit: skippable_300x250
+  AndroidAudioMobConfig:
+    apiKey: 2M4nqcOGZwX6UQkqxWJs
+    adUnit: skippable_300x250
+  sourcepointIosConfiguration:
+    accountId: 1909
+    propertyId: 39011
+    privacyManagerId: 1286912
+    propertyName: voodoo.gaming
+    messageTimeoutInSeconds: 30
+  sourcepointAndroidConfiguration:
+    accountId: 1909
+    propertyId: 39011
+    privacyManagerId: 1286912
+    propertyName: voodoo.gaming
+    messageTimeoutInSeconds: 30
+  googleChromePromotionAdjustToken:

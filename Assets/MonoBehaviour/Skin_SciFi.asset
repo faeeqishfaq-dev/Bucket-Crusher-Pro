@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+  m_Name: Skin_SciFi
+  m_EditorClassIdentifier:
+  ID: SKIN_SCIFI
+  ItemType: 0
+  UnlockedByDefault: 0
+  Name: Lasers
+  Order: 0
+  Price: 4000
+  RvPrice: 2
+  Max: 1
+  Icon: {fileID: 21300000, guid: a924dcdf88d1a084ea02668336bb37d1, type: 2}
+  IconBonus: {fileID: 21300000, guid: 2fe738a60d09b2b488d61194e2180715, type: 2}
+  Prefab: {fileID: 0}
+  Mesh: {fileID: 0}
+  UseFormula: 0
+  BasePrice: 0
+  IncreaseRate: 0
+  GemBasePrice: 0
+  GemIncreaseRate: 0
+  FuelPercent: 10
+  PowerPercent: 10
+  SizePercent: 10
+  HeadObject: {fileID: 1709254077376921, guid: c47991d0d5fac86489531d0c2b339647, type: 2}
+  HeadBonusObject: {fileID: 1709254077376921, guid: a888d3ecc554cc64d9d9a9f157237f8d, type: 2}
+  CylindarMaterial: {fileID: 2100000, guid: b045d94dfcadec44089116dd8095fe4e, type: 2}
+  JointCenter: {fileID: 2100000, guid: 32aae617443e4964db33f351ba61c56f, type: 2}
+  JointOuter: {fileID: 2100000, guid: e38773ff3ccb266499ffc90141477aec, type: 2}
+  Drone: {fileID: 114919942235722503, guid: e2ca31476829d974599aa2d043f170ec, type: 2}
+  DroneIcon: {fileID: 21300000, guid: ffa539076fc405a43b757b6f24bbb31f, type: 2}

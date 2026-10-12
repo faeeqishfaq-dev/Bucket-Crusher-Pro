@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+  m_Name: Skin_Diamond
+  m_EditorClassIdentifier:
+  ID: DIAMOND
+  ItemType: 0
+  UnlockedByDefault: 0
+  Name: Diamond
+  Order: 0
+  Price: 8000
+  RvPrice: 5
+  Max: 1
+  Icon: {fileID: 21300000, guid: 006dd57573ac93341beb5f28eb03e402, type: 2}
+  IconBonus: {fileID: 21300000, guid: e085e3009b50b0341a379dbf8c5984bf, type: 2}
+  Prefab: {fileID: 0}
+  Mesh: {fileID: 0}
+  UseFormula: 0
+  BasePrice: 0
+  IncreaseRate: 0
+  GemBasePrice: 0
+  GemIncreaseRate: 0
+  FuelPercent: 0
+  PowerPercent: 40
+  SizePercent: 30
+  HeadObject: {fileID: 1709254077376921, guid: ad31f2ae71a62954280230ad3a80f1a8, type: 2}
+  HeadBonusObject: {fileID: 1709254077376921, guid: 944ab1e8484db7b4580af4efea7b3a0c, type: 2}
+  CylindarMaterial: {fileID: 2100000, guid: 24d380e81d42034469d71223df9c466f, type: 2}
+  JointCenter: {fileID: 2100000, guid: 534a3ec84c2a91049928e693a127c4f0, type: 2}
+  JointOuter: {fileID: 2100000, guid: 5c1b5b955b1d6e44984d851eeb46e7b4, type: 2}
+  Drone: {fileID: 114919942235722503, guid: 9b15f3736590f93449824e9588630a70, type: 2}
+  DroneIcon: {fileID: 21300000, guid: 7746bc45378172149a6ed14ff1ca266d, type: 2}

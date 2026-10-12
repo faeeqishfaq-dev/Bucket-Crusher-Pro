@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843c2213ca96bb066f5645df15623b42, type: 3}
+  m_Name: LeaderboardData
+  m_EditorClassIdentifier:
+  slotPrefab: {fileID: 114313026266067498, guid: eb638d7791ee9a24f893591478b2a712, type: 2}
+  slotCount: 9
+  playerSlotIndex: 5
+  spacing: 10
+  pseudoPool: {fileID: 11400000, guid: 083e937d87537664ca6d3851f6021eb4, type: 2}
+  flagPool: {fileID: 11400000, guid: 8fc707af49bb84941a17ad656fffb2b8, type: 2}

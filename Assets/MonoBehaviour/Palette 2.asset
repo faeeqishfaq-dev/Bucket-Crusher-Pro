@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e068025a17462664d3c114387184871, type: 3}
+  m_Name: Palette 2
+  m_EditorClassIdentifier:
+  colors:
+  - {r: 0.053469386, g: 0.5849056, b: 0, a: 1}
+  - {r: 0, g: 0.8490566, b: 0.3230902, a: 1}
+  - {r: 0, g: 1, b: 0.16702724, a: 1}
+  - {r: 0.47376806, g: 1, b: 0.28773582, a: 1}
+  - {r: 0.7650783, g: 1, b: 0, a: 1}
+  - {r: 0.94324887, g: 1, b: 0.2216981, a: 1}
+  - {r: 0.90610325, g: 1, b: 0.3443396, a: 1}

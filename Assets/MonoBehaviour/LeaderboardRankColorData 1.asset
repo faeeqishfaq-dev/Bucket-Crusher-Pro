@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f42a7c204abe360e43cac36c6e9193, type: 3}
+  m_Name: LeaderboardRankColorData 1
+  m_EditorClassIdentifier:
+  rankRanges:
+  - {x: 1000, y: 2000}
+  backgroundColor: {r: 0.2896938, g: 0.5080017, b: 0.5849056, a: 1}
+  rankBackgroundColor: {r: 0.15294117, g: 0.37558928, b: 0.8784314, a: 1}
+  playerBackgroundColor: {r: 0.29036134, g: 0.6837365, b: 0.8207547, a: 1}
+  playerRankBackgroundColor: {r: 0.26330543, g: 0.46412686, b: 0.9150943, a: 1}

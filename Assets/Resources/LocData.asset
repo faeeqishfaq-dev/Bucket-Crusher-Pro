@@ -1,0 +1,871 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a9a7e4aa50c180eb92e13cc76998fe, type: 3}
+  m_Name: LocData
+  m_EditorClassIdentifier:
+  selectedSheetIndex: 0
+  sheetVersions:
+  - name: 1.0
+    languageCodes:
+    - EN
+    - FR
+    - JA
+    - ZH-CN
+    - ZH-TW
+    - KO
+    - ID
+    - DE
+    - ES
+    - IT
+    - PT
+    - RU
+    translationRows:
+    - key: app_store_description
+      translations:
+      - "Upgrade your characteristics and become more and more destructive! \nTear down this wall to the ground!"
+      - "Améliorez vos caractéristiques et devenez de plus en plus destructrice!\nDérivez ce mur au sol!"
+      - "あなたの特性をアップグレードし、ますます破壊的になります！\nこの壁を地面に引き裂きます！"
+      - "升级设备增强威力。\n把这堵墙夷为平地！"
+      - "升級設備增強威力。\n把這堵墻夷為平地！"
+      - "특성을 업그레이드하고 점점 더 파괴적이 되십시오!\n이 벽을 땅에 찢어!"
+      - "Tingkatkan karakteristik Anda dan menjadi semakin merusak!\nMerobohkan dinding ini ke tanah!"
+      - "Aktualisieren Sie Ihre Eigenschaften und werden Sie immer destruktiver!\nZerreißen Sie diese Wand zu Boden!"
+      - "¡Actualice tus características y vuelve cada vez más destructivo!\n¡Derriba esta pared al suelo!"
+      - "Aggiorna le tue caratteristiche e diventa sempre più distruttivo!\nAbbassare questo muro a terra!"
+      - "Atualize suas características e torne -se cada vez mais destrutivo!\nRasgue esta parede no chão!"
+      - "Прокачивайте свои характеристики и становитесь все более и более безумным!\nРазруште стену до основания!"
+    - key: app_store_game_name
+      translations:
+      - Bucket Crusher
+      - Concasseur à godet
+      - バケットクラッシャー
+      - 拆迁特工队
+      - 拆遷特工隊
+      - 버킷 크러셔
+      - Bucket Crusher
+      - Eimer Brecher
+      - Trituradora
+      - Crusher del secchio
+      - Triturador de balde
+      - Ковш дробилка
+    - key: app_store_keywords
+      translations:
+      - building, destroyer, crasher
+      - Bâtiment, destructeur, crash
+      - 建物、駆逐艦、クラッシャー
+      - 建筑、破坏、拆迁
+      - 建築、破壞、拆遷
+      - 건물, 구축함, Crasher
+      - bangunan, perusak, crasher
+      - Gebäude, Zerstörer, Absturz
+      - edificio, destructor, crasher
+      - Building, Destroyer, Crasher
+      - Construindo, Destruidor, Crasher
+      - здание, разрушение, аварийный
+    - key: app_store_promotional
+      translations:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+    - key: app_store_subtitle
+      translations:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+    - key: Generic_Ok
+      translations:
+      - OK
+      - D'ACCORD
+      - わかった
+      - 好的
+      - 好的
+      - 확인
+      - Oke
+      - OK
+      - OK
+      - OK
+      - OK
+      - ХОРОШО
+    - key: Generic_Level
+      translations:
+      - LEVEL {0}
+      - Niveau {0}
+      - レベル{0}
+      - 关卡{0}
+      - 關卡{0}
+      - 레벨 {0}
+      - Level {0}
+      - Ebene {0}
+      - Nivel {0}
+      - Livello {0}
+      - Nível {0}
+      - Уровень {0}
+    - key: Generic_NoThanks
+      translations:
+      - No Thanks
+      - Non merci
+      - 結構です
+      - 不用了
+      - 不用了
+      - 고맙지 만 사양 할게
+      - Tidak, terima kasih
+      - Nein Danke
+      - No, gracias
+      - No grazie
+      - Não, obrigado
+      - нет, спасибо
+    - key: Generic_Play
+      translations:
+      - PLAY
+      - JOUER
+      - 遊ぶ
+      - 开始玩
+      - 開始玩
+      - 플레이
+      - BERMAIN
+      - ABSPIELEN
+      - DESEMPEÑAR
+      - GIOCARE A
+      - TOQUE
+      - ИГРАТЬ
+    - key: Generic_Back
+      translations:
+      - BACK
+      - RETOUR
+      - 戻る
+      - 返回
+      - 返回
+      - 뒤
+      - KEMBALI
+      - DER RÜCKEN
+      - ESPALDA
+      - INDIETRO
+      - DE VOLTA
+      - НАЗАД
+    - key: Generic_OutOfFuel
+      translations:
+      - out of fuel
+      - en panne d'essence
+      - 燃料切れ
+      - 燃料耗尽
+      - 燃料耗盡
+      - 연료 밖
+      - habis bensin
+      - das Benzin ist alle
+      - sin combustible
+      - senza benzina
+      - sem combustível
+      - топливо кончилось
+    - key: Generic_LevelCompleted
+      translations:
+      - LEVEL COMPLETED
+      - Niveau terminé
+      - レベル完了
+      - 关卡完成
+      - 關卡完成
+      - 레벨이 완료되었습니다
+      - LEVEL SELESAI
+      - LEVEL ABGESCHLOSSEN
+      - NIVEL COMPLETADO
+      - LIVELLO COMPLETATO
+      - NÍVEL COMPLETO
+      - УРОВЕНЬ ПРОЙДЕН
+    - key: Generic_Free
+      translations:
+      - FREE
+      - LIBRE
+      - 自由
+      - 免费
+      - 免費
+      - 무료
+      - GRATIS
+      - FREI
+      - LIBRE
+      - GRATUITO
+      - GRATUITAMENTE
+      - БЕСПЛАТНО
+    - key: Generic_Skins
+      translations:
+      - SKINS
+      - Peaux
+      - 皮
+      - 皮肤
+      - 皮膚
+      - 스킨
+      - Kulit
+      - Häute
+      - PIELES
+      - Pelli
+      - Peles
+      - Внешний вид
+    - key: Generic_Upgrades
+      translations:
+      - UPGRADES
+      - Mises à niveau
+      - アップグレード
+      - 升级
+      - 升級
+      - 업그레이드
+      - Peningkatan
+      - Upgrades
+      - Actualización
+      - Aggiornamenti
+      - ATUALIZAÇÕES
+      - Улучшения
+    - key: Generic_Max
+      translations:
+      - MAX
+      - Max
+      - マックス
+      - 满级
+      - 滿級
+      - 맥스
+      - Max
+      - Max
+      - Máximo
+      - Max
+      - Máx
+      - МАКСИМУМ
+    - key: Generic_Unlocked
+      translations:
+      - Unlocked
+      - Débloqué
+      - ロック解除
+      - 已解锁
+      - 已解鎖
+      - 잠금 해제
+      - Tidak dikunci
+      - Entsperrt
+      - Desbloqueado
+      - Sbloccato
+      - Desbloqueado
+      - Разблокирован
+    - key: Generic_New
+      translations:
+      - NEW
+      - NOUVEAU
+      - 新着
+      - 新
+      - 新
+      - 새로운
+      - BARU
+      - NEU
+      - NUEVO
+      - NUOVO
+      - NOVO
+      - НОВЫЙ
+    - key: Generic_FillTank
+      translations:
+      - FILL TANK
+      - Remplir le réservoir
+      - 充填タンク
+      - 加满油
+      - 加滿油
+      - 탱크를 채우십시오
+      - Tangki pengisi
+      - TANK FÜLLEN
+      - Tanque de relleno
+      - Serbatoio di riempimento
+      - Encher tanque
+      - Заполнить бак
+    - key: Generic_GetX
+      translations:
+      - GET {0}X
+      - Obtenir {0} x
+      - '{0}Xを取得'
+      - 获取{0} x
+      - 獲取{0} x
+      - '{0} x를 얻습니다'
+      - Dapatkan {0} x
+      - Holen Sie sich {0} x
+      - Obtener {0} x
+      - Ottieni {0} x
+      - Obtenha {0} x
+      - Получить {0} x
+    - key: NoInternetPopup
+      translations:
+      - You are not connected to the internet :(
+      - Vous n'êtes pas connecté à Internet :(
+      - "あなたはイン\nターネットに接\n続していません:("
+      - 您没有连接网络:(
+      - 您沒有連接到互聯網:(
+      - 당신은 인터넷에 연결되어 있지 않습니다 :(
+      - Anda tidak terhubung ke internet :(
+      - Sie sind nicht mit dem Internet verbunden :(
+      - No estás conectado a Internet :(
+      - Non sei connesso a Internet :(
+      - Você não está conectado à Internet :(
+      - Вы не подключены к Интернету :(
+    - key: Options_PrivacyPolicy
+      translations:
+      - Privacy Policy
+      - Politique de confidentialité
+      - プライバシーポリシー
+      - 隐私政策
+      - 隱私政策
+      - 개인 정보 정책
+      - Kebijakan pribadi
+      - Datenschutz-Bestimmungen
+      - Política de privacidad
+      - politica sulla riservatezza
+      - Política de Privacidade
+      - Политика конфиденциальности
+    - key: Options_Restore
+      translations:
+      - Restore Purchases
+      - Restaurer les achats
+      - 購入を復元
+      - 恢复购买
+      - 恢復購買
+      - 구매를 복원
+      - Mengembalikan pembelian
+      - Einkäufe wiederherstellen
+      - Restaurar las compras
+      - Ripristinare gli acquisti
+      - Restaurar compras
+      - Восстановить покупки
+    - key: Options_RestoreFailed
+      translations:
+      - restore purchases failed
+      - Les achats de restauration ont échoué
+      - "購入の復元は失\n敗しました"
+      - 恢复购买失败
+      - 恢復購買失敗
+      - 구매를 복원하지 못했습니다
+      - Kembalikan pembelian gagal
+      - Einkäufe wiederherstellen fehlgeschlagen
+      - Restaurar compras fracasó
+      - ripristinare gli acquisti non riusciti
+      - Restaurar compras falhou
+      - Восстановление покупок не удалось
+    - key: Options_RestoreSuccess
+      translations:
+      - purchases successfully restored
+      - Les achats ont réussi à restaurer
+      - "購入は正常に復\n元されました"
+      - 购买成功恢复
+      - 購買成功恢復
+      - 구매가 성공적으로 복원되었습니다
+      - Pembelian berhasil dipulihkan
+      - Einkäufe erfolgreich restauriert
+      - compras restauradas con éxito
+      - Acquisti restaurati con successo
+      - compras restauradas com sucesso
+      - Покупки успешно восстановлены
+    - key: Noads_Header
+      translations:
+      - Get rid of Ads!
+      - Débarrassez-vous des publicités!
+      - 広告を取り除く！
+      - 移除广告！
+      - 擺脫廣告！
+      - 광고를 제거하십시오!
+      - Singkirkan iklan!
+      - Werden Sie Anzeigen los!
+      - ¡Deshazte de los anuncios!
+      - Sbarazzati degli annunci!
+      - Livre -se dos anúncios!
+      - Избавьтесь от рекламы!
+    - key: Noads_Explanation
+      translations:
+      - You'll not see forced ads in the game but you'll still be able to watch some to get boosters
+      - Vous ne verrez pas d'annonces forcées dans le jeu mais vous pourrez toujours en regarder pour obtenir des boosters
+      - "ゲームに強制広告は表示されま\nせんが、ブースターを取得するた\nめにいくつかを見ることができます"
+      - "游戏中将不再强制您看广告，\n但您仍然可以选择主动看广告以获得奖励"
+      - "您不會在遊戲中看到強制廣告，\n但您仍然可以觀看一些廣告以獲得獎勵"
+      - 게임에서 강제 광고를 볼 수 없지만 여전히 부스터를 얻기 위해 일부를 볼 수 있습니다.
+      - Anda tidak akan melihat iklan paksa dalam permainan tetapi Anda masih bisa menonton beberapa untuk mendapatkan penguat
+      - Sie werden keine erzwungenen Anzeigen im Spiel sehen, aber Sie können immer noch einige beobachten, um Booster zu bekommen
+      - No verás anuncios forzados en el juego, pero aún podrás ver algunos para obtener refuerzos
+      - Non vedrai annunci forzati nel gioco, ma sarai comunque in grado di guardarne alcuni per ottenere booster
+      - Você não verá anúncios forçados no jogo, mas ainda poderá assistir alguns para obter boosters
+      - Вы не увидите принудительных рекламных объявлений в игре, но вы все равно сможете посмотреть некоторые, чтобы получить бустеры
+    - key: Noads_ThankYou
+      translations:
+      - Thank you for supporting the game!
+      - Merci d'avoir soutenu le jeu!
+      - "ゲームをサポートしていただき\nありがとうございます！"
+      - "感谢您对游戏的\n支持！"
+      - "感謝您對遊戲的\n支持！"
+      - 게임을 지원해 주셔서 감사합니다!
+      - Terima kasih telah mendukung permainan!
+      - Vielen Dank, dass Sie das Spiel unterstützt haben!
+      - ¡Gracias por apoyar el juego!
+      - Grazie per aver supportato il gioco!
+      - Obrigado por apoiar o jogo!
+      - Спасибо за поддержку игры!
+    - key: Noads_Buy
+      translations:
+      - Buy Now!
+      - Acheter maintenant!
+      - 今買う！
+      - 立即购买！
+      - 立即購買！
+      - 지금 구입하세요!
+      - Beli sekarang!
+      - Kaufe jetzt!
+      - ¡Comprar ahora!
+      - Acquista ora!
+      - Compre Agora!
+      - Купить сейчас!
+    - key: Increment_Length
+      translations:
+      - LENGTH
+      - LONGUEUR
+      - 長さ
+      - 长度
+      - 長度
+      - 길이
+      - PANJANGNYA
+      - LÄNGE
+      - LONGITUD
+      - LUNGHEZZA
+      - COMPRIMENTO
+      - ДЛИНА
+    - key: Increment_Fuel
+      translations:
+      - FUEL
+      - LE CARBURANT
+      - 燃料
+      - 汽油
+      - 汽油
+      - 연료
+      - BAHAN BAKAR
+      - TREIBSTOFF
+      - COMBUSTIBLE
+      - CARBURANTE
+      - COMBUSTÍVEL
+      - ТОПЛИВО
+    - key: Increment_Power
+      translations:
+      - POWER
+      - PUISSANCE
+      - パワー
+      - 力量
+      - 力量
+      - 힘
+      - KEKUASAAN
+      - ENERGIE
+      - ENERGÍA
+      - POTENZA
+      - POTÊNCIA
+      - СИЛА
+    - key: Increment_Size
+      translations:
+      - SIZE
+      - TAILLE
+      - サイズ
+      - 尺寸
+      - 尺寸
+      - 크기
+      - UKURAN
+      - GRÖSSE
+      - TALLA
+      - TAGLIA
+      - TAMANHO
+      - РАЗМЕР
+    - key: Skin_Candy
+      translations:
+      - Candy
+      - Des bonbons
+      - あめ
+      - 糖果
+      - 糖果
+      - 사탕
+      - Permen
+      - Süssigkeit
+      - Dulce
+      - Caramella
+      - Doce
+      - Конфеты
+    - key: Skin_Basic
+      translations:
+      - Basic
+      - De base
+      - 基本
+      - 普通
+      - 普通
+      - 기초적인
+      - Dasar
+      - Basic
+      - Básico
+      - Di base
+      - Básico
+      - Базовый
+    - key: Skin_Diamond
+      translations:
+      - Diamond
+      - diamant
+      - ダイヤモンド
+      - 钻石
+      - 鑽石
+      - 다이아몬드
+      - berlian
+      - Diamant
+      - Diamante
+      - Diamante
+      - Diamante
+      - Бриллиант
+    - key: Skin_Plant
+      translations:
+      - Plant
+      - Plante
+      - 工場
+      - 植物
+      - 植物
+      - 식물
+      - Tanaman
+      - Anlage
+      - Planta
+      - Pianta
+      - Plantar
+      - Завод
+    - key: Skin_Rocks
+      translations:
+      - Rocks
+      - Rochers
+      - 岩
+      - 岩石
+      - 岩石
+      - 바위
+      - Batu
+      - Felsen
+      - Rocas
+      - Rocce
+      - Pedras
+      - Скала
+    - key: Skin_Lasers
+      translations:
+      - Lasers
+      - Lasers
+      - レーザー
+      - 激光
+      - 激光
+      - 레이저
+      - Laser
+      - Laser
+      - Láser
+      - Laser
+      - Lasers
+      - Лазеры
+    - key: Skin_Hero
+      translations:
+      - Super Hero
+      - Super-héros
+      - スーパーヒーロー
+      - 超级英雄
+      - 超級英雄
+      - 슈퍼 영웅
+      - Super hero
+      - Superheld
+      - Superhéroe
+      - Supereroe
+      - Super heroi
+      - Супер герой
+    - key: Skin_Unicorn
+      translations:
+      - Unicorn
+      - Licorne
+      - ユニコーン
+      - 独角兽
+      - 獨角獸
+      - 일각수
+      - Unicorn
+      - Einhorn
+      - Unicornio
+      - Unicorno
+      - Unicórnio
+      - Единорог
+    - key: Skin_Craft
+      translations:
+      - Craft
+      - Artisanat
+      - クラフト
+      - 工艺
+      - 工藝
+      - 선박
+      - Keahlian
+      - Boot
+      - Artesanía
+      - Mestiere
+      - Arte
+      - Ремесло
+    - key: Skin_Windmill
+      translations:
+      - Windmill
+      - Moulin à vent
+      - 風車
+      - 风车
+      - 風車
+      - 풍차 비슷한 것
+      - Kincir angin
+      - Windmühle
+      - Molino
+      - Mulino a vento
+      - Moinho de vento
+      - Ветряная мельница
+    - key: Upgrade_MultipleSaws
+      translations:
+      - Multiple saws
+      - Saws multiples
+      - 複数ののこぎり
+      - 多锯
+      - 多鋸
+      - 여러 톱
+      - Beberapa gergaji
+      - Mehrere Sägen
+      - Múltiples sierras
+      - Più seghe
+      - Múltiplas serras
+      - Несколько пил
+    - key: Upgrade_Multiplier
+      translations:
+      - Multiplier
+      - Multiplicateur
+      - 乗数
+      - 翻倍器
+      - 翻倍器
+      - 승수
+      - Pengali
+      - Multiplikator
+      - Multiplicador
+      - Moltiplicatore
+      - Multiplicador
+      - Множитель
+    - key: Upgrade_Tank
+      translations:
+      - Max Fuel
+      - Carburant maximal
+      - 最大燃料
+      - 最大燃料
+      - 最大燃料
+      - 최대 연료
+      - Bahan bakar maksimal
+      - Maximal Kraftstoff
+      - Combustible máximo
+      - Carburante massimo
+      - Combustível máximo
+      - Максимум топлива
+    - key: Upgrade_Treadmill
+      translations:
+      - Treadmill
+      - Tapis roulant
+      - トレッドミル
+      - 传送带
+      - 傳送帶
+      - 밟아 돌리는 바퀴
+      - Pekerjaan yg membosankan
+      - Laufband
+      - Rueda de andar
+      - Tapis roulant
+      - Esteira
+      - Беговая дорожка
+    - key: Mission_MakeMoney
+      translations:
+      - Make {0}/{1} !
+      - Faire {0} / {1}!
+      - '{0}/{1}を作成します！'
+      - 赚取 {0}/{1}！
+      - 賺取 {0}/{1}！
+      - '{0}/{1}을 만드십시오!'
+      - Buat {0}/{1}!
+      - Machen Sie {0}/{1}!
+      - Make {0}/{1}!
+      - Make {0}/{1}!
+      - Faça {0}/{1}!
+      - Заработайте {0}/{1} !
+    - key: Mission_LevelComplete
+      translations:
+      - Complete {0}/{1} Levels!
+      - Compléter les niveaux {0} / {1}!
+      - 完全{0}/{1}レベル！
+      - 完成 {0}/{1} 关卡！
+      - 完成 {0}/{1} 關卡！
+      - 완료 {0}/{1} 레벨!
+      - Lengkapi {0}/{1} level!
+      - Vervollständigen Sie {0}/{1} Levels!
+      - ¡Completas {0}/{1} niveles!
+      - Completi {0}/{1} livelli!
+      - Complete {0}/{1} níveis!
+      - Завершите {0}/{1} уровни!
+    - key: Mission_PlayDays
+      translations:
+      - Play for {0}/{1} Days!
+      - Jouez pour {0} / {1} jours!
+      - '{0}/{1}日をプレイ！'
+      - 玩{0}/{1}天！
+      - 玩{0}/{1}天！
+      - '{0}/{1} 일을 플레이하십시오!'
+      - Mainkan untuk {0}/{1} hari!
+      - Spielen Sie für {0}/{1} Tage!
+      - Juega para {0}/{1} días!
+      - Gioca per {0}/{1} giorni!
+      - Jogue por {0}/{1} dias!
+      - Играйте {0}/{1} дней!
+    - key: Mission_UpgradeLength
+      translations:
+      - Upgrade Your Size {0}/{1} Times!
+      - Mettez à niveau votre taille {0} / {1} fois!
+      - "サイズをアップグレ\nードする{0}/{1}回！"
+      - 将您的尺寸升级 {0}/{1} 次！
+      - 將您的尺寸升級 {0}/{1} 次！
+      - 크기 {0}/{1} 시간을 업그레이드하십시오!
+      - Tingkatkan ukuran Anda {0}/{1} kali!
+      - Aktualisieren Sie Ihre Größe {0}/{1} Zeiten!
+      - Actualice su tamaño {0}/{1} veces!
+      - Aggiorna la tua taglia {0}/{1} volte!
+      - Atualize seu tamanho {0}/{1} vezes!
+      - Обновите свой размер {0}/{1} раз!
+    - key: RocketLauncher
+      translations:
+      - ROCKET LAUNCHER
+      - LANCE-ROQUETTES
+      - "ロケットラ\nンチャー"
+      - 火箭发射器
+      - 火箭發射器
+      - 로켓 발사기
+      - PELUNCUR ROKET
+      - RAKETENWERFER
+      - LANZACOHETES
+      - LANCIARAZZI
+      - Lançador de foguetes
+      - РАКЕТНАЯ УСТАНОВКА
+    - key: BonusLevel_Header
+      translations:
+      - Bonus Level!
+      - Niveau bonus!
+      - ボーナスレベル！
+      - 奖励关卡
+      - 獎勵等級！
+      - 보너스 레벨!
+      - Level Bonus!
+      - Bonusniveau!
+      - ¡Nivel de bonificación!
+      - Livello bonus!
+      - Nível de bônus!
+      - Бонусный уровень!
+    - key: BonusLevel_Go
+      translations:
+      - Go Now
+      - Aller maintenant
+      - 今行く
+      - 出发
+      - 出發
+      - 지금 이동
+      - Pergi sekarang
+      - Geh jetzt
+      - Ve ahora
+      - Vai, ora
+      - Vá agora
+      - Вперёд!
+    - key: BonusLevel_Description
+      translations:
+      - Drill into gold!
+      - Percer en or!
+      - 金にドリル！
+      - 挖金子！
+      - 挖金子！
+      - 금으로 뚫 세자!
+      - Bor menjadi emas!
+      - Bohrer in Gold!
+      - ¡Purnir en oro!
+      - Drill in oro!
+      - Perfure em ouro!
+      - Бурите золото!
+    - key: SkinUnlockedPopup_Header
+      translations:
+      - New Skin Unlocked!
+      - Nouvelle peau déverrouillée!
+      - "新しいスキンのロッ\nクが解除されました！"
+      - 新皮肤解锁！
+      - 新皮膚解鎖！
+      - 새로운 피부 잠금 해제!
+      - Kulit baru tidak terkunci!
+      - Neue Haut freigeschaltet!
+      - Nueva piel desbloqueada!
+      - Nuova pelle sbloccata!
+      - Nova pele desbloqueada!
+      - Новый скин разблокирован!
+    - key: SkinUnlockedPopup_Select
+      translations:
+      - SELECT
+      - SÉLECTIONNER
+      - 選択する
+      - 立即使用
+      - 立即使用
+      - 고르다
+      - PILIH
+      - AUSWÄHLEN
+      - SELECCIONE
+      - SELEZIONARE
+      - Selecione
+      - ВЫБРАТЬ
+    - key: CashBoost
+      translations:
+      - CASH BOOST
+      - Trésorerie
+      - キャッシュブースト
+      - 收益提升
+      - 收益提升
+      - 현금 부스트
+      - Dorongan tunai
+      - Bargeldschub
+      - Impulso de efectivo
+      - Spinta in contanti
+      - Impulso em dinheiro
+      - Денежный импульс
+    - key: Upgrade_Drone
+      translations:
+      - Drone Power
+      - Puissance de drone
+      - ドローンパワー
+      - 无人机力量
+      - 無人機力量
+      - 드론 파워
+      - Kekuatan drone
+      - Drohnenkraft
+      - Potencia de drones
+      - Potenza dei droni
+      - Poder do drone
+      - Сила беспилотников
+    - key: DrillBoost
+      translations:
+      - DRILL
+      - PERCEUSE
+      - ドリル
+      - 钻头
+      - 鑽頭
+      - 송곳
+      - MENGEBOR
+      - BOHREN
+      - TALADRO
+      - TRAPANO
+      - FURAR
+      - СВЕРЛИТЬ

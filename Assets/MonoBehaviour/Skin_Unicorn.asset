@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+  m_Name: Skin_Unicorn
+  m_EditorClassIdentifier:
+  ID: SKIN_UNICORN
+  ItemType: 0
+  UnlockedByDefault: 0
+  Name: Unicorn
+  Order: 0
+  Price: 6000
+  RvPrice: 3
+  Max: 1
+  Icon: {fileID: 21300000, guid: 522d3ad122cd42442a90704cdd4eda1b, type: 2}
+  IconBonus: {fileID: 21300000, guid: dd68d54db13a5a2419cfe00199acd2a9, type: 2}
+  Prefab: {fileID: 0}
+  Mesh: {fileID: 0}
+  UseFormula: 0
+  BasePrice: 0
+  IncreaseRate: 0
+  GemBasePrice: 0
+  GemIncreaseRate: 0
+  FuelPercent: 50
+  PowerPercent: 0
+  SizePercent: 0
+  HeadObject: {fileID: 1709254077376921, guid: 5a94246564e8f5941bfda14cb548f9cb, type: 2}
+  HeadBonusObject: {fileID: 1709254077376921, guid: 140bf9f7de715ad46b75968ad5086555, type: 2}
+  CylindarMaterial: {fileID: 2100000, guid: 9c24542cbeb57c74c8432c9a8f3f0484, type: 2}
+  JointCenter: {fileID: 2100000, guid: dcfef3c294a0e2e49a88c48ad18a19ad, type: 2}
+  JointOuter: {fileID: 2100000, guid: 43060d79fd19ae6479556ce2d51335f8, type: 2}
+  Drone: {fileID: 114919942235722503, guid: 0cc21fe79a63c604b9fdbba5c00b169d, type: 2}
+  DroneIcon: {fileID: 21300000, guid: 9028a174d5617804e967267a4b9b6574, type: 2}

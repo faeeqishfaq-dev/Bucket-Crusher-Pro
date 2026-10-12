@@ -1,0 +1,220 @@
+================== PREFAB: 1 (Assets/GameObject/1.prefab) ==================
+Total Rigidbodies: 6
+  RB on 'base': isKinematic=True, mass=600, drag=0, useGravity=True, constraints=56, localPos=(-0.29, 1.23, 0.24)
+  RB on 'Head': isKinematic=False, mass=1, drag=0, useGravity=False, constraints=120, localPos=(-0.50, 3.97, 0.00)
+  RB on 'SawX2': isKinematic=False, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, -0.02, 0.00)
+  RB on 'SawX3': isKinematic=False, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'p1': isKinematic=False, mass=1, drag=0, useGravity=True, constraints=48, localPos=(-0.50, 1.78, 0.00)
+  RB on 'p3': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.50, 2.76, 0.00)
+Total Joints: 5
+  Joint 'ConfigurableJoint' on 'Head': connectedBody='p3', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=96.36554
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX2': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX3': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p1': connectedBody='base', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p3': connectedBody='p1', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Head on 'Head', RB='Head', parent='1', localPos=(-0.50, 3.97, 0.00)
+================== PREFAB: 2 (Assets/GameObject/2.prefab) ==================
+Total Rigidbodies: 7
+  RB on 'base': isKinematic=True, mass=600, drag=0, useGravity=True, constraints=56, localPos=(-0.29, 1.23, 0.24)
+  RB on 'Head': isKinematic=False, mass=1, drag=0, useGravity=False, constraints=120, localPos=(-0.50, 4.92, 0.00)
+  RB on 'SawX2': isKinematic=False, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'SawX3': isKinematic=False, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'p1': isKinematic=False, mass=1, drag=0, useGravity=True, constraints=48, localPos=(-0.50, 1.78, 0.00)
+  RB on 'p2': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.50, 2.75, 0.00)
+  RB on 'p3': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.50, 3.71, 0.00)
+Total Joints: 6
+  Joint 'ConfigurableJoint' on 'Head': connectedBody='p3', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=96.36554
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX2': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX3': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p1': connectedBody='base', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2': connectedBody='p1', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p3': connectedBody='p2', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Head on 'Head', RB='Head', parent='2', localPos=(-0.50, 4.92, 0.00)
+================== PREFAB: 3 (Assets/GameObject/3.prefab) ==================
+Total Rigidbodies: 9
+  RB on 'Cube (1)': isKinematic=True, mass=600, drag=0, useGravity=True, constraints=56, localPos=(-0.29, 1.23, 0.24)
+  RB on 'Head': isKinematic=False, mass=1, drag=0, useGravity=False, constraints=120, localPos=(0.58, 3.14, 0.00)
+  RB on 'SawX2': isKinematic=False, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'SawX3': isKinematic=False, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'p1': isKinematic=False, mass=1, drag=0, useGravity=True, constraints=48, localPos=(-0.50, 1.78, 0.00)
+  RB on 'p2': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(0.40, 2.15, 0.00)
+  RB on 'p2 (1)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.58, 2.40, 0.00)
+  RB on 'p2 (2)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(0.35, 2.70, 0.00)
+  RB on 'p3': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.62, 2.96, 0.00)
+Total Joints: 8
+  Joint 'ConfigurableJoint' on 'Head': connectedBody='p3', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=96.36554
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX2': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX3': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p1': connectedBody='Cube (1)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2': connectedBody='p1', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (1)': connectedBody='p2', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (2)': connectedBody='p2 (1)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p3': connectedBody='p2 (2)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Head on 'Head', RB='Head', parent='3', localPos=(0.58, 3.14, 0.00)
+================== PREFAB: 4 (Assets/GameObject/4.prefab) ==================
+Total Rigidbodies: 10
+  RB on 'base': isKinematic=True, mass=600, drag=0, useGravity=True, constraints=56, localPos=(-0.29, 1.23, 0.24)
+  RB on 'Head': isKinematic=False, mass=1, drag=0, useGravity=False, constraints=120, localPos=(-0.04, 3.45, 0.00)
+  RB on 'SawX2': isKinematic=False, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'SawX3': isKinematic=False, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'p1': isKinematic=False, mass=1, drag=0, useGravity=True, constraints=48, localPos=(-0.50, 1.78, 0.00)
+  RB on 'p2': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-1.41, 2.12, 0.00)
+  RB on 'p2 (1)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.47, 2.29, 0.00)
+  RB on 'p2 (2)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-1.32, 2.70, 0.00)
+  RB on 'p2 (3)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.38, 2.99, 0.00)
+  RB on 'p3': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-1.24, 3.46, 0.00)
+Total Joints: 9
+  Joint 'ConfigurableJoint' on 'Head': connectedBody='p3', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=96.36554
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX2': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX3': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p1': connectedBody='base', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2': connectedBody='p1', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (1)': connectedBody='p2', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (2)': connectedBody='p2 (1)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (3)': connectedBody='p2 (2)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p3': connectedBody='p2 (3)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Head on 'Head', RB='Head', parent='4', localPos=(-0.04, 3.45, 0.00)
+================== PREFAB: 6 (Assets/GameObject/6.prefab) ==================
+Total Rigidbodies: 12
+  RB on 'base': isKinematic=True, mass=600, drag=0, useGravity=True, constraints=56, localPos=(-0.29, 1.23, 0.24)
+  RB on 'Head': isKinematic=False, mass=1, drag=0, useGravity=False, constraints=120, localPos=(-0.09, 5.39, 0.00)
+  RB on 'SawX2': isKinematic=True, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'SawX3': isKinematic=True, mass=0.3, drag=0, useGravity=False, constraints=62, localPos=(0.00, 0.00, 0.00)
+  RB on 'p1': isKinematic=False, mass=1, drag=0, useGravity=True, constraints=48, localPos=(-0.50, 1.78, 0.00)
+  RB on 'p2': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-1.16, 2.50, 0.00)
+  RB on 'p2 (1)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.37, 3.05, 0.00)
+  RB on 'p2 (2)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-1.17, 3.56, 0.00)
+  RB on 'p2 (3)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.36, 4.13, 0.00)
+  RB on 'p2 (4)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-1.27, 4.50, 0.00)
+  RB on 'p2 (5)': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-0.34, 4.85, 0.00)
+  RB on 'p3': isKinematic=False, mass=0.1, drag=0, useGravity=True, constraints=48, localPos=(-1.28, 5.22, 0.00)
+Total Joints: 11
+  Joint 'ConfigurableJoint' on 'Head': connectedBody='p3', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=96.36554
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX2': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'SawX3': connectedBody='Head', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=False
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p1': connectedBody='base', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=92.27715
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2': connectedBody='p1', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (1)': connectedBody='p2', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (2)': connectedBody='p2 (1)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (3)': connectedBody='p2 (2)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (4)': connectedBody='p2 (3)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p2 (5)': connectedBody='p2 (4)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Joint 'ConfigurableJoint' on 'p3': connectedBody='p2 (5)', anchor=(0.00, 0.00, 0.00), connectedAnchor=(0.00, 0.00, 0.00), autoConfigureConnectedAnchor=True
+    CJ Config: xMotion=Locked, yMotion=Locked, zMotion=Locked, angXMotion=Locked, angYMotion=Locked, angZMotion=Free
+    CJ Limits: lowAngX=0, highAngX=0, angY=0, angZ=177
+    CJ Drive: xDrive(posSpring=0, damper=0), slerpDrive(posSpring=0, damper=0)
+  Head on 'Head', RB='Head', parent='6', localPos=(-0.09, 5.39, 0.00)

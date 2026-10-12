@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+  m_Name: Treadmill_Upgrade
+  m_EditorClassIdentifier:
+  ID: TREADMILL
+  ItemType: 1
+  UnlockedByDefault: 0
+  Name: Treadmill
+  Order: 0
+  Price: 0
+  RvPrice: 0
+  Max: 20
+  Icon: {fileID: 21300000, guid: 78b34cb7bd5b3bb4380cd96802a67a6c, type: 2}
+  IconBonus: {fileID: 0}
+  Prefab: {fileID: 0}
+  Mesh: {fileID: 0}
+  UseFormula: 1
+  BasePrice: 2000
+  IncreaseRate: 2000
+  GemBasePrice: 5
+  GemIncreaseRate: 10
+  FuelPercent: 0
+  PowerPercent: 0
+  SizePercent: 0
+  HeadObject: {fileID: 0}
+  HeadBonusObject: {fileID: 0}
+  CylindarMaterial: {fileID: 0}
+  JointCenter: {fileID: 0}
+  JointOuter: {fileID: 0}
+  Drone: {fileID: 0}
+  DroneIcon: {fileID: 0}

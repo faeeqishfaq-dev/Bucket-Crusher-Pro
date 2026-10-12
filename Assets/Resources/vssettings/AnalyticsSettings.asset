@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1790592666, guid: 6b903be9b5e5c98ae6785889cb526a1f, type: 3}
+  m_Name: AnalyticsSettings
+  m_EditorClassIdentifier:
+  platform: android
+  store: worldwide
+  useFirebaseAnalytics: 1
+  useRemoteConfig: 1
+  adjustAppToken: qb32zukuybcw
+  noAdsBundleId: io.voodoo.bucketcrusher.noads
+  useVoodooAnalytics: 1
+  conversionEvents:
+    UseConversionEvents: 1
+    DaysUntilExpiration: 1
+    AdEvents: []
+    UnknownEvents: []
+  isChinaStore: 0
+  appleStoreId: com.AndreyGushchin.BucketCrusher
+  voodooFunnels:
+    funnels: []
+  gameAnalyticsGameKey: f04c163002481859d3b0ba29f747957d
+  gameAnalyticsSecretKey: 10dcbf1e22a53049d7d46194e0d96296b1deaff5
+  excludeGameAnalyticsSDK: 0
+  facebookAppId: 358577786204370

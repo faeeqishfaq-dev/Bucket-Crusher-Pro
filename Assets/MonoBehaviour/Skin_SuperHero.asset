@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+  m_Name: Skin_SuperHero
+  m_EditorClassIdentifier:
+  ID: SKIN_SUPERHERO
+  ItemType: 0
+  UnlockedByDefault: 0
+  Name: Hero
+  Order: 0
+  Price: 5000
+  RvPrice: 3
+  Max: 1
+  Icon: {fileID: 21300000, guid: 2b90ce42b8ce2a6499f00be6686b5e6c, type: 2}
+  IconBonus: {fileID: 21300000, guid: 682519508d0afb54a8d474ea17cd335c, type: 2}
+  Prefab: {fileID: 0}
+  Mesh: {fileID: 0}
+  UseFormula: 0
+  BasePrice: 0
+  IncreaseRate: 0
+  GemBasePrice: 0
+  GemIncreaseRate: 0
+  FuelPercent: 0
+  PowerPercent: 40
+  SizePercent: 0
+  HeadObject: {fileID: 1709254077376921, guid: 047568206b9651c4288d477b7c606e9d, type: 2}
+  HeadBonusObject: {fileID: 1709254077376921, guid: a12bd58e6fc1d9841a7f4efadc4ef846, type: 2}
+  CylindarMaterial: {fileID: 2100000, guid: 6ee9fcd511b33134988437e59e398208, type: 2}
+  JointCenter: {fileID: 2100000, guid: 593b6a25b9851b5479d75fbd86dd9b9e, type: 2}
+  JointOuter: {fileID: 2100000, guid: fadb5323f7251e74ebee1c869f58ecf6, type: 2}
+  Drone: {fileID: 114919942235722503, guid: fa083678afbe9754b96c8d8cf7bc6f4b, type: 2}
+  DroneIcon: {fileID: 21300000, guid: 4730f53ce570cba4ab953ebf6bc3bb4c, type: 2}

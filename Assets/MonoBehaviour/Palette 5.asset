@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e068025a17462664d3c114387184871, type: 3}
+  m_Name: Palette 5
+  m_EditorClassIdentifier:
+  colors:
+  - {r: 0.59131366, g: 0.75936574, b: 0.8301887, a: 1}
+  - {r: 0.66042185, g: 0.9150943, b: 0.7865757, a: 1}
+  - {r: 0.8684665, g: 0.9528302, b: 0.6516999, a: 1}
+  - {r: 1, g: 0.85749537, b: 0.6367924, a: 1}
+  - {r: 0.9622642, g: 0.7112686, b: 0.6581524, a: 1}
+  - {r: 1, g: 0.8632076, b: 0.87888587, a: 1}
+  - {r: 0.9607144, g: 0.7411765, b: 1, a: 1}

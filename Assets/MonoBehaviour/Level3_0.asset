@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b8a2e94c97abf36813a2717b755dab, type: 3}
+  m_Name: Level3_0
+  m_EditorClassIdentifier: 
+  LevelPosType: 1
+  LevelPosition: {x: -3.2, y: 0.54, z: 0}
+  Sprite: {fileID: 2800000, guid: 844e57bb23510d446929071c3fb35118, type: 3}
+  Material: {fileID: 2100000, guid: 820c4483bc84ec043bfae1703f86ccec, type: 2}
+  OptimizedMaterial: {fileID: 2100000, guid: 0d8a3692a2aa73e42b690fe1edf4654d, type: 2}
+  DifficultyPoints: []

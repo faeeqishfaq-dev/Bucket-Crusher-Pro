@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d69a1fcc26e26349a38437fb8d0e9ad, type: 3}
+  m_Name: Play_Days_2
+  m_EditorClassIdentifier:
+  ID: Play_days_2
+  MissionType: 2
+  Description: Play for {0}/{1} Days!
+  Goal: 2
+  LinkedSkin: {fileID: 11400000, guid: 583cca5143f8516488a5d61938381dae, type: 2}

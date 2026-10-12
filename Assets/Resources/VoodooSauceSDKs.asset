@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -796209822, guid: 6b903be9b5e5c98ae6785889cb526a1f, type: 3}
+  m_Name: VoodooSauceSDKs
+  m_EditorClassIdentifier:
+  SDKs:
+    vsVersion: 9.1.0.main.5
+    lastUpdateDate: 25/06/2026 19:21:14
+    ads:
+    - name: MaxAds
+      versions:
+        unity: 8.5.1
+        ios: 13.5.1
+        android: 13.5.1
+      adNetworks:
+      - name: AdjoeAds
+        ios:
+          version: 1.6.0
+          adapterVersion: 1.6.0.0-beta
+          certified: 1
+        android:
+          version: 1.8.0
+          adapterVersion: 1.8.0.0-beta
+          certified: 1
+      - name: Adn
+        ios:
+          version: 3.16.4
+          adapterVersion: 3.16.4.1
+          certified: 1
+        android:
+          version: 4.28.1
+          adapterVersion: 4.28.1.1
+          certified: 1
+      - name: BidMachine
+        ios:
+          version: 3.5.0.0
+          adapterVersion: 3.5.0.0.0
+          certified: 1
+        android:
+          version: 3.5.0
+          adapterVersion: 3.5.0.0
+          certified: 1
+      - name: ByteDance
+        ios:
+          version: 7.8.0.4
+          adapterVersion: 7.8.0.4.0
+          certified: 1
+        android:
+          version: 7.8.0.7
+          adapterVersion: 7.8.0.7.0
+          certified: 1
+      - name: Facebook
+        ios:
+          version: 6.21.1
+          adapterVersion: 6.21.1.0
+          certified: 1
+        android:
+          version: 6.21.0
+          adapterVersion: 6.21.0.0
+          certified: 1
+      - name: Fyber
+        ios:
+          version: 8.4.2
+          adapterVersion: 8.4.2.0
+          certified: 1
+        android:
+          version: 8.4.1
+          adapterVersion: 8.4.1.0
+          certified: 1
+      - name: Google
+        ios:
+          version: 13.0.0
+          adapterVersion: 13.0.0.0
+          certified: 1
+        android:
+          version: 24.8.0
+          adapterVersion: 24.8.0.0
+          certified: 1
+      - name: GoogleAdManager
+        ios:
+          version: 13.0.0
+          adapterVersion: 13.0.0.0
+          certified: 1
+        android:
+          version: 24.8.0
+          adapterVersion: 24.8.0.0
+          certified: 1
+      - name: InMobi
+        ios:
+          version: 11.1.0
+          adapterVersion: 11.1.0.0
+          certified: 1
+        android:
+          version: 11.1.0
+          adapterVersion: 11.1.0.0
+          certified: 1
+      - name: IronSource
+        ios:
+          version: 9.2.0.0
+          adapterVersion: 9.2.0.0.0
+          certified: 1
+        android:
+          version: 9.2.0.0
+          adapterVersion: 9.2.0.0.0
+          certified: 1
+      - name: Mintegral
+        ios:
+          version: 8.0.3.0
+          adapterVersion: 8.0.3.0.0
+          certified: 1
+        android:
+          version: 17.0.31
+          adapterVersion: 17.0.31.0
+          certified: 1
+      - name: Moloco
+        ios:
+          version: 4.1.2
+          adapterVersion: 4.1.2.0
+          certified: 1
+        android:
+          version: 3.11.0
+          adapterVersion: 3.11.0.0
+          certified: 1
+      - name: PubMatic
+        ios:
+          version: 4.12.0
+          adapterVersion: 4.12.0.0
+          certified: 1
+        android:
+          version: 4.12.0
+          adapterVersion: 4.12.0.0
+          certified: 1
+      - name: UnityAds
+        ios:
+          version: 4.16.6
+          adapterVersion: 4.16.6.0
+          certified: 1
+        android:
+          version: 4.17.0
+          adapterVersion: 4.17.0.0
+          certified: 1
+      - name: Vungle
+        ios:
+          version: 7.6.2
+          adapterVersion: 7.6.2.0
+          certified: 1
+        android:
+          version: 7.6.1
+          adapterVersion: 7.6.1.0
+          certified: 1
+      - name: Yandex
+        ios:
+          version: 8.1.0
+          adapterVersion: 8.1.0.1
+          certified: 1
+        android:
+          version: 8.1.0
+          adapterVersion: 8.1.0.0
+          certified: 1
+      - name: YSONetwork
+        ios:
+          version: 1.1.31
+          adapterVersion: 1.1.31.1
+          certified: 1
+        android:
+          version: 1.2.7
+          adapterVersion: 1.2.7.1
+          certified: 1
+      - name: Verve
+        ios:
+          version: 3.7.1
+          adapterVersion: 3.7.1.0-local
+          certified: 0
+        android:
+          version: 3.7.1
+          adapterVersion: 3.7.1.0
+          certified: 0
+      otherUtilitySdk:
+      - name: Nefta
+        versions:
+          unity: 4.4.5
+          ios: 4.4.5
+          android: 4.4.5
+    analytics:
+    - name: Adjust
+      versions:
+        unity: 5.5.0
+        ios: 5.5.0
+        android: 5.5.0
+    - name: Firebase Analytics
+      versions:
+        unity: 12.10.0
+        ios: 11.14.0
+        android: 22.4.0
+    - name: Firebase Messaging
+      versions:
+        unity: 12.10.0
+        ios: 11.14.0
+        android: 24.1.1
+    - name: AppHarbr
+      versions:
+        unity: 1.22.0
+        ios: 1.33.1
+        android: 2.36.1
+    - name: GameAnalytics
+      versions:
+        unity: 7.9.0
+        ios:
+        android:
+    crashlytics:
+    - name: Firebase Crashlytics
+      versions:
+        unity: 12.10.0
+        ios: 11.14.0
+        android: 19.4.2
+    audioAds:
+    - name: AudioMob
+      versions:
+        unity: 10.2.2
+        ios: 10.2.2
+        android: 10.2.2
+    consentManagementProvider:
+    - name: Sourcepoint
+      versions:
+        unity: 3.1.0
+        ios: 7.7.1
+        android: 7.10.1

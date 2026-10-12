@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+  m_Name: Skin_Craft
+  m_EditorClassIdentifier:
+  ID: CRAFT
+  ItemType: 0
+  UnlockedByDefault: 0
+  Name: Craft
+  Order: 0
+  Price: 10000
+  RvPrice: 10
+  Max: 1
+  Icon: {fileID: 21300000, guid: e86e8e667328c394494ea77d546d3343, type: 2}
+  IconBonus: {fileID: 21300000, guid: 662ded0cef88ae7449b5ffc5c4223ddd, type: 2}
+  Prefab: {fileID: 0}
+  Mesh: {fileID: 0}
+  UseFormula: 0
+  BasePrice: 0
+  IncreaseRate: 0
+  GemBasePrice: 0
+  GemIncreaseRate: 0
+  FuelPercent: 70
+  PowerPercent: 90
+  SizePercent: 20
+  HeadObject: {fileID: 1709254077376921, guid: f7b089a0666df134891149eb1442adb3, type: 2}
+  HeadBonusObject: {fileID: 1709254077376921, guid: 668923c4186de624eaf25154bb0ad272, type: 2}
+  CylindarMaterial: {fileID: 2100000, guid: e38773ff3ccb266499ffc90141477aec, type: 2}
+  JointCenter: {fileID: 2100000, guid: ab495522393ae634fb1a8692fc46f4c7, type: 2}
+  JointOuter: {fileID: 2100000, guid: 74bf6a4572ba31941b7db14cf291aa40, type: 2}
+  Drone: {fileID: 114919942235722503, guid: 401739d1449dfa34390b5a195a31a949, type: 2}
+  DroneIcon: {fileID: 21300000, guid: e44a4b050e78b044da7cb863ef89d648, type: 2}

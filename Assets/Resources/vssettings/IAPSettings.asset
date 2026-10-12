@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -13238107, guid: 5533087e61cd035854f4828e2e6112dd, type: 3}
+  m_Name: IAPSettings
+  m_EditorClassIdentifier:
+  platform: android
+  noAdsProductId: io.voodoo.bucketcrusher.noads
+  isIAPEnabled: 1
+  subscriptionsGroup:
+  - None
+  - SubGroup 1
+  productsFamily:
+  - None
+  - Coins
+  - Skipets
+  - EndlessOffer
+  - Card pack
+  products:
+  - _productId: io.voodoo.bucketcrusher.gems50
+    _type: 0
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  - _productId: io.voodoo.bucketcrusher.gems250
+    _type: 0
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  - _productId: io.voodoo.bucketcrusher.gems750
+    _type: 0
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  - _productId: io.voodoo.bucketcrusher.noads.better
+    _type: 1
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  - _productId: io.voodoo.bucketcrusher.gemsnoads
+    _type: 0
+    _subscriptionGroup:
+    _productFamily:
+    _usdPrice: 0
+  subscriptionSharedKey:
+  ignoreTheGoogleKeyError: 0
